@@ -19,7 +19,7 @@ For running this demo, you will need to have NodeJS and MongoDB already installe
 
 
 ## Steps for Running the Demo
-  1. Uncompressed the file containing the project's files or clone [this repo on GitHub](https://github.com/altairn5/WSI-single-page-app.git)  repository below:
+  1. Uncompressed the file containing the project's files or clone [this repo from GitHub](https://github.com/altairn5/WSI-single-page-app.git).
 
   2. Once in the project's directory, run `npm install` to install the dependencies listed in `package.json`.
 
