@@ -1,7 +1,7 @@
 
 
   /********************
-  * Mobile Breakpoints*
+  * BASE BREAKPOINT *
   *********************/
 
   body {
@@ -10,12 +10,11 @@
   }
 
   /********************
-  * Header and Navbar *
+  * HEADER AND NAVBAR *
   *********************/
 
   .logo {
     display: flex;
-    /*padding-right: 18%;*/
     padding-right: 15%;
   }
 
@@ -33,7 +32,6 @@
   #mobile-navbar > button {
     margin-right: 0;
   }
-
 
   header .logo > #logo-image{
     display: block;
@@ -63,7 +61,7 @@
   }
 
   /**************
-  * Main Content *
+  * MAIN CONTENT *
   ***************/
 
   #breadcrumb-menu{
@@ -97,7 +95,7 @@
   }
 
   /********
-  * Modal *
+  * MODAL *
   ********/
 
   button.add-to-cart {
@@ -126,9 +124,8 @@
     font-weight: 500;
   }
 
-
   /***************
-  * Expandables  *
+  * EXPANDABLES  *
   ****************/
 
   a.expandable{
@@ -150,9 +147,8 @@
     border-color: #333333;
   }
 
-
   /****************
-  * Media Queries *
+  * MEDIA QUERIES *
   ****************/
 
   @media(min-width: 768px){
@@ -162,7 +158,7 @@
     }
 
     /********************
-    * Header and Navbar *
+    * HEADER AND NAVBAR *
     *********************/
     .logo {
       padding-right: 0;
@@ -193,7 +189,7 @@
     }
 
     /**************
-    * Main Content *
+    * MAIN CONTENT *
     ***************/
 
     #breadcrumb-menu > li {
@@ -203,7 +199,6 @@
     .modal-dialog {
       width: auto;
     }
-
     /*768px*/
   }
 
@@ -212,5 +207,4 @@
     ul.navigation-bar > li > a {
       font-size: 0.75em;
     }
-
   }

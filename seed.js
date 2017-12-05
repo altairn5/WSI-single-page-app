@@ -76,7 +76,7 @@ items.push({
 
 
   /***************************
-  *  SEED DB WITH MOCK DATA  *
+  *  SEEDS DB WITH MOCK DATA  *
    ***************************/
 
 
