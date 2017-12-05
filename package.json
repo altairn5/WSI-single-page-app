@@ -1,0 +1,23 @@
+{
+  "name": "wsi-single-page-app",
+  "version": "1.0.0",
+  "description": "single page app demo challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altairn5/WSI-single-page-app.git"
+  },
+  "author": "Humberto Calero",
+  "license": "ISC",
+  "homepage": "https://github.com/altairn5/WSI-single-page-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.5"
+  },
+  "devDependencies": {}
+}

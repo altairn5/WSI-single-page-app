@@ -1,0 +1,216 @@
+
+
+  /********************
+  * Mobile Breakpoints*
+  *********************/
+
+  body {
+    font-family: crimson;
+    font-size: 14px;
+  }
+
+  /********************
+  * Header and Navbar *
+  *********************/
+
+  .logo {
+    display: flex;
+    /*padding-right: 18%;*/
+    padding-right: 15%;
+  }
+
+  #logo-image {
+    order: 2;
+    flex-basis: 200px;
+  }
+
+  #mobile-navbar {
+    order: 1;
+    background-color: inherit;
+    margin-top: 15px;
+  }
+
+  #mobile-navbar > button {
+    margin-right: 0;
+  }
+
+
+  header .logo > #logo-image{
+    display: block;
+    margin: 23px auto 4px;
+  }
+
+  .navbar-default > #mobile-links{
+    background-color: e6e6e6
+  }
+
+  #mobile-links {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+  }
+
+  ul.nav.navbar-nav.nav-links{
+    text-transform: uppercase;
+    background-color: #e6e6e6;
+  }
+
+  ul.navigation-bar > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e7e7e7;
+    font-size: .50em;
+  }
+
+  /**************
+  * Main Content *
+  ***************/
+
+  #breadcrumb-menu{
+    background-color: inherit;
+    padding-left: 0;
+    white-space: nowrap;
+  }
+
+  #breadcrumb-menu li:not(:first-child):before{
+    content: ">";
+    color: grey;
+    margin: 0 5px;
+  }
+
+  #breadcrumb-menu li:last-child {
+    color: #373839;
+  }
+
+  a.large-image > img {
+    width: 95%;
+  }
+
+  .product-description > h2 {
+    font-size: 1.5em;
+  }
+
+  /*Quantity spinners*/
+
+  input[type=number]::-webkit-inner-spin-button {*/
+    opacity: 1 /*always show button spinners*/
+  }
+
+  /********
+  * Modal *
+  ********/
+
+  button.add-to-cart {
+    width: 149px;
+    height: 41px;
+    margin-right: 0;
+    margin-top: 20px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .add-to-cart{
+    background: url(../assets/button-add-to-cart.png) no-repeat;
+  }
+
+  .modal-dialog {
+    width: 95vw;
+  }
+
+  .modal-dialog #cart-button > button{
+    text-transform: uppercase;
+    background-color: #e81f25;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+
+
+  /***************
+  * Expandables  *
+  ****************/
+
+  a.expandable{
+    background: url(../assets/arrow-expanded.png) no-repeat;
+    text-transform: uppercase;
+    font-weight: inherit;
+    color: inherit;
+    padding-left: 17px;
+    text-decoration: none;
+    cursor: none;
+  }
+
+  a.expandable.collapsed{
+    background: url(../assets/arrow-collapsed.png) no-repeat;
+  }
+
+  .expandable-area > dl > hr:first-child,
+  .expandable-area > dl > hr:last-child {
+    border-color: #333333;
+  }
+
+
+  /****************
+  * Media Queries *
+  ****************/
+
+  @media(min-width: 768px){
+    body {
+      font-family: crimson;
+      font-size: 18px;
+    }
+
+    /********************
+    * Header and Navbar *
+    *********************/
+    .logo {
+      padding-right: 0;
+    }
+
+    header .logo > #logo-image{
+      flex-basis: 230px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-navbar{
+      margin-top: 15px;
+    }
+
+    ul.navigation-bar {
+      padding-left: 15px;
+      background: #2d2d2d;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+    }
+
+    ul > li.home-nav-link {
+      background: #293759;
+      border-left: 1px solid #cacaca;
+      padding:0 10px;
+    }
+
+    /**************
+    * Main Content *
+    ***************/
+
+    #breadcrumb-menu > li {
+      font-size: .75em;
+    }
+
+    .modal-dialog {
+      width: auto;
+    }
+
+    /*768px*/
+  }
+
+  @media(min-width: 1200px) {
+
+    ul.navigation-bar > li > a {
+      font-size: 0.75em;
+    }
+
+  }
